@@ -64,7 +64,7 @@ src/
 ## Adding shadcn/ui Components
 
 ```bash
-pnpm dlx shadcn@4.22.1 add [component-name]
+pnpm dlx shadcn@latest add [component-name]
 ```
 
 ## Conventions
