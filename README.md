@@ -36,14 +36,14 @@ git clone https://github.com/thatmike1/vite-react-supabase-starter.git my-app
 cd my-app
 
 # install
-npm install
+pnpm install --frozen-lockfile
 
 # configure supabase
 cp .env.sample .env
 # edit .env with your Supabase project URL and anon key
 
 # run
-npm run dev
+pnpm dev
 ```
 
 ## Project Structure
@@ -64,7 +64,7 @@ src/
 ## Adding shadcn/ui Components
 
 ```bash
-npx shadcn@latest add [component-name]
+pnpm dlx shadcn@4.22.1 add [component-name]
 ```
 
 ## Conventions
